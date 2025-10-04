@@ -1,0 +1,222 @@
+#body {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(245, 245, 245), rgb(152, 152, 235));
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* height: 600px; */
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* h1{
+    color: ;
+    text-align: center;
+} */
+.nav {
+    background-attachment: fixed;
+    text-align: right;
+    background-color: #a6a6a6;
+    margin: 0px;
+    padding: 23px;
+    border-radius: 6px;
+}
+
+nav a {
+    background-attachment: fixed;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+    margin: 2px;
+    padding: 9px;
+}
+
+nav p {
+    font: weight 10px;
+    text-align: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+article {
+    flex: 3;
+    text-align: center;
+    line-height: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h1 {
+    font-size: 53px;
+}
+
+button {
+    border-radius: 23px;
+    background-color: rgb(48, 113, 232);
+    color: white;
+}
+
+button:active {
+    box-shadow: 10px 10px 20px black;
+    background-color: rgb(190, 161, 45);
+    color: rgb(2, 24, 24);
+}
+
+button:hover {
+
+    background-color: aqua;
+    color: black;
+}
+
+nav a:hover {
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(103, 202, 192);
+    color: rgb(0, 0, 0);
+}
+
+nav a:active {
+    box-shadow: 3px 3px 5px rgb(31, 52, 50);
+}
+
+aside {
+    text-align: center;
+    flex: 2;
+
+}
+
+.img2 {
+    border-radius: 50px;
+    filter: drop-shadow(10px 10px 20px black);
+    background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), blue, 0.1)
+}
+
+.img2:hover {
+    box-shadow: 5px 5px 10px rgba(67, 99, 85, 0.377);
+}
+
+.intro {
+    font-weight: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a1 {
+    flex: 1;
+    background-color: rgb(62, 21, 100);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 6px cadetblue;
+    /* transition: all 2s ease-in; */
+}
+
+.a1 p {
+    font-weight: 5px;
+}
+
+.a1:hover {
+    box-shadow: 5px 5px 10px rgb(10, 101, 150);
+    /* max-width: 700px;
+    max-height: 700px; */
+}
+
+#a1 {
+    line-height: 25px;
+    color: white;
+}
+
+.a1p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color:rgb(40, 248, 89);
+}
+
+#a2 {
+    color: white;
+    line-height: 25px;
+}
+
+.a2 {
+    flex: 1;
+    background-color: rgb(62, 21, 100);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a2:hover {
+    box-shadow: 5px 5px 10px rgb(10, 101, 150);
+}
+
+.a2p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color:rgb(40, 248, 89);
+}
+
+.a3 {
+    flex: 1;
+    background-color: rgb(62, 21, 100);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a3:hover {
+    box-shadow: 5px 5px 10px rgb(10, 101, 150);
+}
+
+#a3 {
+    color: white;
+    line-height: 25px;
+}
+
+.a3p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color:rgb(40, 248, 89);
+}
+
+.a4 {
+    flex: 1;
+    background-color: rgb(62, 21, 100);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a4:hover {
+    box-shadow: 5px 5px 10px rgb(10, 101, 150);
+}
+
+#a4 {
+    color: white;
+    line-height: 25px;
+}
+
+.a4p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color:rgb(40, 248, 89);
+}
+footer{
+    background-color: rgb(17, 43, 43);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.foot a{
+    text-align: ;
+    text-decoration: none;
+  
+    color: white;
+    line-height: 30px;
+}
